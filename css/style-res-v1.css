@@ -1579,7 +1579,7 @@ figure.bg-input::after {
     top: 110px;
     left: 24px; }
     .carousel-inner .slide-2 .carousel-caption h1 {
-      font-size: 40px; }
+      font-size: 56px; }
     .carousel-inner .slide-2 .carousel-caption h3 {
       font-size: 30px;
       margin-top: 0px; }
@@ -1834,7 +1834,7 @@ figure.bg-input::after {
     font-size: 60px;
     top: 110px; }
   .who .h2 {
-    font-size: 22px;
+    font-size: 32px;
     top: 140px; }
   .who p {
     top: 192px;
@@ -2014,7 +2014,7 @@ figure.bg-input::after {
     padding: 0px 0 0 14px; }
 
   .who h1 {
-    font-size: 40px;
+    font-size: 51px;
     top: 70px; }
   .who .h2 {
     top: 82px; }
