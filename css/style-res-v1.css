@@ -1697,7 +1697,8 @@ figure.bg-input::after {
       font-size: 40px;
       padding-left: 5px; }
     .count .title-count p {
-      display: none; }
+      /*display: none;*/
+    }
     .count .title-count #countdown {
       padding: 0px 0px 30px 0;
       text-align: left; }
@@ -1970,7 +1971,7 @@ figure.bg-input::after {
     top: -6px; }
     .count .title-count #countdown #tiles span {
       font-size: 26px;
-      width: 60px; }
+      width: 50px; }
 
   .blog p {
     font-size: 14px;
