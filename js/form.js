@@ -1,8 +1,7 @@
 $("#form-submit").click(function () {
     console.log("1")
     $.ajax({
-        //url: "https://fernanda15func.azurewebsites.net/api/PostRequestFunction",
-        url: "http://localhost:7071/api/PostRequestFunction",        
+        url: "https://fernanda15func.azurewebsites.net/api/PostRequestFunction",                
         data: {
             name: $('#form-input-name').val()
         },
