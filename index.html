@@ -260,13 +260,21 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 new-letter">
-                <div class="form-new">
+                <div class="form-new js-form">
                     <h1>Confirme a sua presença</h1>
                     <p>Deixe o seu nome completo para confirmarmos a sua presença.</p>
-                    <form class="form-group">
-                        <input type="text" name="input-mail" placeholder="Seu nome completo" class="form-control input-lg">
-                        <button type="submit">Enviar</button>
-                    </form>
+                    <div class="form-group">
+                        <input type="text" name="name" id="form-input-name" placeholder="Seu nome completo" class="form-control input-lg">
+                        <button id="form-submit">Enviar</button>                       
+                    </div>
+                </div>
+                <div class="form-new js-form-success-result" style="display: none">
+                    <h1>Presença confirmada</h1>
+                    <p>Nos vemos no dia 18 de Setembro às 21h.</p>                    
+                </div>
+                <div class="form-new js-form-error-result" style="display: none">
+                    <h1>Algo deu errado</h1>
+                    <p>Infelizmente não conseguimos cofirmar a sua presença. Tente novamente mais tarde.</p>
                 </div>
 
             </div>
@@ -327,6 +335,7 @@
 <script type="text/javascript" src="scrolling/TweenMax.min.js"></script>
 <script src="scrolling/jquery.superscrollorama.js"></script>
 <script src="js/function-scroll.js"></script>
+<script src="js/form.js"></script>
 </body>
 
 <!-- Mirrored from landing.engotheme.com/html/jenstore/demo/homev1.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Jul 2021 11:16:35 GMT -->
